@@ -3,7 +3,7 @@
 // 14212 -> нет
 // 12821 -> да
 // 23432 -> да
-Console.WriteLine("Введите пятизначное целое положительное число");
+Console.WriteLine("Введите любое пятизначное целое положительное число");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number > 99999 || number < 10000)
 {
